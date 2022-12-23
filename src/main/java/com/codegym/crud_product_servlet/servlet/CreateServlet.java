@@ -24,6 +24,7 @@ public class CreateServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
         writer.print(str);
+
     }
 
     @Override
